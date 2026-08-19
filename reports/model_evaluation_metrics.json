@@ -1,0 +1,128 @@
+{
+  "regression_results": [
+    {
+      "Model": "Lasso Regression",
+      "CV R2 (Mean)": 0.6552,
+      "CV R2 (Std)": 0.041,
+      "Test MAE": 4.9333,
+      "Test RMSE": 6.3673,
+      "Test R2": 0.6233
+    },
+    {
+      "Model": "Ridge Regression",
+      "CV R2 (Mean)": 0.6556,
+      "CV R2 (Std)": 0.0387,
+      "Test MAE": 5.0158,
+      "Test RMSE": 6.4614,
+      "Test R2": 0.6121
+    },
+    {
+      "Model": "Linear Regression",
+      "CV R2 (Mean)": 0.6551,
+      "CV R2 (Std)": 0.0384,
+      "Test MAE": 5.0301,
+      "Test RMSE": 6.4725,
+      "Test R2": 0.6108
+    },
+    {
+      "Model": "Random Forest",
+      "CV R2 (Mean)": 0.5758,
+      "CV R2 (Std)": 0.0548,
+      "Test MAE": 5.169,
+      "Test RMSE": 6.7036,
+      "Test R2": 0.5825
+    },
+    {
+      "Model": "Support Vector Regressor",
+      "CV R2 (Mean)": 0.6018,
+      "CV R2 (Std)": 0.0421,
+      "Test MAE": 5.1662,
+      "Test RMSE": 6.7331,
+      "Test R2": 0.5788
+    },
+    {
+      "Model": "Gradient Boosting",
+      "CV R2 (Mean)": 0.5873,
+      "CV R2 (Std)": 0.0558,
+      "Test MAE": 5.2384,
+      "Test RMSE": 6.7554,
+      "Test R2": 0.576
+    },
+    {
+      "Model": "Hist Gradient Boosting",
+      "CV R2 (Mean)": 0.5944,
+      "CV R2 (Std)": 0.0448,
+      "Test MAE": 5.3095,
+      "Test RMSE": 6.802,
+      "Test R2": 0.5702
+    },
+    {
+      "Model": "Decision Tree",
+      "CV R2 (Mean)": 0.3754,
+      "CV R2 (Std)": 0.0502,
+      "Test MAE": 5.9191,
+      "Test RMSE": 7.4996,
+      "Test R2": 0.4775
+    }
+  ],
+  "classification_results": [
+    {
+      "Model": "Gradient Boosting",
+      "CV Accuracy": 0.4938,
+      "Test Accuracy": 0.56,
+      "F1 (Macro)": 0.4032,
+      "F1 (Weighted)": 0.5545
+    },
+    {
+      "Model": "Random Forest",
+      "CV Accuracy": 0.4825,
+      "Test Accuracy": 0.555,
+      "F1 (Macro)": 0.4161,
+      "F1 (Weighted)": 0.5562
+    },
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy": 0.5175,
+      "Test Accuracy": 0.55,
+      "F1 (Macro)": 0.4277,
+      "F1 (Weighted)": 0.5623
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Accuracy": 0.4362,
+      "Test Accuracy": 0.395,
+      "F1 (Macro)": 0.3305,
+      "F1 (Weighted)": 0.4154
+    }
+  ],
+  "top_features": [
+    {
+      "Feature": "study_time_hours",
+      "Importance": 9.064303370898923
+    },
+    {
+      "Feature": "internet_access_Yes",
+      "Importance": 5.962272904823279
+    },
+    {
+      "Feature": "previous_grade",
+      "Importance": 5.026646474969639
+    },
+    {
+      "Feature": "attendance_percent",
+      "Importance": 3.942462460641573
+    },
+    {
+      "Feature": "part_time_job_Yes",
+      "Importance": 3.516702349954463
+    },
+    {
+      "Feature": "academic_effort_index",
+      "Importance": 2.914401352082622
+    },
+    {
+      "Feature": "sleep_hours",
+      "Importance": 1.786824073332293
+    }
+  ]
+}
